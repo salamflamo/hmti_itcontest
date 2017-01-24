@@ -1,0 +1,20 @@
+.btn-h1-spacing{
+  margin-top: 18px;
+}
+.pd-h1-spacing{
+  padding: 20px;
+}
+.buku-email-spacing{
+  margin-bottom: 18px;
+  width:250px
+}
+.post-spacing{
+  margin-bottom:18px;
+}
+hr{
+  color:grey;
+}
+
+.spacing-left{
+  margin-left: 2%;
+}
