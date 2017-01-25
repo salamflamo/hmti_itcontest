@@ -5,11 +5,11 @@
     <div class="col-md-10 col-md-offset-1">
       <h2 style="text-align:center; margin-bottom:20px">SOAL 3</h2>
       <div class="soal">
-        <p style="text-align:center">Apa warna dari USB 3.0 ?
-        <img src="images/tahap3soal3.jpg" alt="tahap3soal3" height="150px" width="300">
+        <p style="text-align:center">Apa warna dari USB 3.0 ?<br><br>
+        <img src="images/tahap3soal3.jpg" alt="tahap3soal3" height="150px" width="400">
         </p>
       </div>
-      <div class="row" style="margin-top:50px">
+      <div class="row" style="margin-top:20px">
         <form class="" action="{{route('tahap3.store3')}}" method="post">
             {!! csrf_field() !!}
             <div class="col-md-4">

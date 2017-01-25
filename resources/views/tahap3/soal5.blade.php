@@ -5,9 +5,10 @@
     <div class="col-md-10 col-md-offset-1">
       <h2 style="text-align:center; margin-bottom:20px">SOAL 5</h2>
       <div class="soal">
-        <p style="text-align:justify">Dr. Jaap Haartsen adalah seoarang Penemu…</p>
+        <p style="text-align:justify">Dr. Jaap Haartsen adalah seoarang Penemu…
+        <img src="images/tahap3soal5.jpg" alt="tahap3soal3" height="180px" width="180"></p>
       </div>
-      <div class="row" style="margin-top:50px">
+      <div class="row" style="margin-top:20px">
         <form class="" action="{{route('tahap3.store5')}}" method="post">
             {!! csrf_field() !!}
             <div class="col-md-4">
@@ -21,7 +22,7 @@
             <input type="radio" name="answer" value="a"> A.	Bluetooth <br><br>
             <input type="radio" name="answer" value="b"> B.	Mouse
           </div>
-          <div class="col-md-4" style="margin-top:100px">
+          <div class="col-md-4" style="margin-top:40px">
             <a href="{{route('tahap3.hasil')}}">
               <input type="submit" name="Submit" value="HASIL TAHAP 3 >>>"  class="btn btn-block btn-danger"></a>
           </div>

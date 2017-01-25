@@ -21,7 +21,7 @@
             <input type="radio" name="answer" value="a"> A. POP mail <br><br>
             <input type="radio" name="answer" value="b"> B. Mailing list atau milis
           </div>
-          <div class="col-md-4" style="margin-top:100px">
+          <div class="col-md-4" style="margin-top:40px">
             <a href="{{route('tahap3.soal5')}}">
               <input type="submit" name="Submit" value="NEXT SOAL 5 >>>"  class="btn btn-block btn-danger"></a>
           </div>

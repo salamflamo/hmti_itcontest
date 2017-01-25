@@ -21,8 +21,11 @@
           <label>JAWABAN : </label><br><br>
           <input type="radio" name="answer" value="a"> A.	ALU <br><br>
           <input type="radio" name="answer" value="b"> B. CU
-          </div>
-          <div class="col-md-4" style="margin-top:100px">
+        </div>
+        <!-- <div class="col-md-8">
+
+        </div> -->
+          <div class="col-md-4" style="margin-top:40px">
             <a href="{{route('tahap3.soal2')}}">
               <input type="submit" name="Submit" value="NEXT SOAL 2 >>>"  class="btn btn-block btn-danger"></a>
           </div>
